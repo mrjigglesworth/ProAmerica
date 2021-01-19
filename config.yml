@@ -1,9 +1,9 @@
 baseurl: "/"
 title: Pro America
-theme: ghostwriter
+theme: dream
 languageCode: en-us
 # copyright: My Name
-disqusShortname: XXX
+disqusShortname: "mrjigglesworth"
 googleAnalytics: XXX
 pygmentsUseClasses: true
 pygmentsCodefences: true
@@ -21,25 +21,35 @@ markup:
 
 privacy:
   disqus:
-    disable: true
+    disable: false
   googleAnalytics:
     anonymizeIP: true
     respectDoNotTrack: true
     useSessionStorage: false
 
 author:
-  name: Patriot A
+  name: "PatriotA"
   profile: ""
 
 taxonomies:
   tag: tags
 
 params:
+  author: "PatriotA"
+  description: "PatriotA"
+  avatar: "/img/patriotavatar.png"
+  headerTitle : "Pro America"
+  motto: "For the Patriots. Censorship Resistant"
+  categoriesLimitInHeader: 6
+  
+  # background: "black"
+  backgroundImage: "/img/flagbackground.jpg"
+  linkColor: "red"
   mainSections:
     - post
   intro: true
   headline: Pro America
-  description: For the Patriots. Censorship free.
+  description: For the Patriots. Censorship Resistant.
   # github: "https://github.com/XXX"
   # gitlab: "https://gitlab.com/XXX"
   # linkedin: "https://linkedin.com/in/XXX/"
@@ -67,17 +77,22 @@ params:
     # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
     serverURL: ""
 
+  # search
+  enableSearch: true
+
+  # options
+  showSummaryCoverInPost: true
 permalinks:
   post: "/:year/:month/:day/:filename/"
 
 menu:
   main:
-    - name: Blog
-      url: /
-      weight: 1
-    # - name: Contact
-      # url: /page/contact/
-      # weight: 3
-    - name: About
-      url: /page/about/
-      weight: 4
+    # - name: Blog
+      # url: /
+      # weight: 1
+    # # - name: Contact
+      # # url: /page/contact/
+      # # weight: 3
+    # - name: About
+      # url: /page/about/
+      # weight: 4
