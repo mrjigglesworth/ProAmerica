@@ -39,7 +39,7 @@ params:
   description: "PatriotA"
   avatar: "/img/patriotavatar.png"
   headerTitle : "Pro America"
-  motto: "For the Patriots. Censorship Resistant"
+  motto: "For the Patriots. Censorship Resistant. A Simple bog site designed to be resistant from content censorship. This website is built on IPFS (InterPlanetary File System), which is a distributed network that can never be shut down. Fuck big tech and fuck big government."
   categoriesLimitInHeader: 6
   
   # background: "black"
