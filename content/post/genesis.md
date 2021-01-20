@@ -10,3 +10,4 @@ cover = "/img/godWorldAmericaMeme.jpg"
 
 On the first day, there was America.
 
+![image alt text](/img/godWorldAmericaMeme.jpg) 
