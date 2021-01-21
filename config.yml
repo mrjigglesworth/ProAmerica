@@ -3,7 +3,7 @@ title: Pro America
 theme: dream
 languageCode: en-us
 # copyright: My Name
-disqusShortname: "proamerica"
+disqusShortname: 'proamerica'
 googleAnalytics: XXX
 pygmentsUseClasses: true
 pygmentsCodefences: true
