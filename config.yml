@@ -43,6 +43,7 @@ params:
   categoriesLimitInHeader: 6
   
   # background: "black"
+  favicon: "/img/favicon.ico"
   backgroundImage: "/img/flagbackground.jpg"
   linkColor: "red"
   mainSections:
