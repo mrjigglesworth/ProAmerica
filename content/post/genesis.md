@@ -6,8 +6,6 @@ author = "Patriot A"
 cover = "/img/godWorldAmericaMeme.jpg"
 +++
 
-## The Genesis Post
-
 On the first day, there was America.
 
 ![image alt text](/img/godWorldAmericaMeme.jpg) 

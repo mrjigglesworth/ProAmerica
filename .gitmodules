@@ -4,3 +4,9 @@
 [submodule "themes/dream"]
 	path = themes/dream
 	url = https://github.com/g1eny0ung/hugo-theme-dream.git
+[submodule "themes/photo-grid"]
+	path = themes/photo-grid
+	url = https://github.com/Chen-Zhe/photo-grid.git
+[submodule "themes/hugrid"]
+	path = themes/hugrid
+	url = https://github.com/aerohub/hugrid.git
