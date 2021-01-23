@@ -2,7 +2,7 @@ baseurl: "/"
 title: Pro America
 theme: dream
 languageCode: en-us
-disqusShortname: 'ProAmerica'
+disqusShortname: 'proamerica'
 googleAnalytics: XXX
 pygmentsUseClasses: true
 pygmentsCodefences: true
