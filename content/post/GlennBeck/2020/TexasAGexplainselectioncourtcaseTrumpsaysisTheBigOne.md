@@ -1,7 +1,7 @@
 +++
 title=''
-date=2020-12-09T17:31:39Z
-cover='https://i.ytimg.com/vi/T0alCXa0ctc/sddefault.jpg'
+date=2020-12-09T22:00:14Z
+cover='https://i.ytimg.com/vi/T0alCXa0ctc/hqdefault.jpg'
 +++
 
 All content belongs to GlennBeck.
