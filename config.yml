@@ -38,7 +38,7 @@ params:
   description: "PatriotA"
   avatar: "/img/patriotavatar.png"
   headerTitle : "Pro America"
-  motto: "The idea of this site is to combine PRO-AMERICA content into one platform that is a 100% PRO-AMERICA environment. This is for entertainment purposes. You'll see memes, gifs, and videos all relating to PRO-AMERICA. This website is built on IPFS (InterPlanetary File System), a distributed network that is censorship resistent."
+  motto: "The idea of this site is to combine PRO-AMERICA content into one platform that is 100% PRO-AMERICA and nothing else. This is for entertainment purposes. You'll see memes, gifs, and videos all relating to PRO-AMERICA. This website is built on IPFS (InterPlanetary File System), a distributed network that is censorship resistent."
   categoriesLimitInHeader: 6
   
   # background: "black"
