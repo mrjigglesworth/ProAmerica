@@ -58,6 +58,7 @@ params:
   # facebook: "https://www.facebook.com/username"
   # email: XXX@example.com
   # opengraph: true
+  comments: true
   shareTwitter: false
   rss: true
   shareFacebook: false
@@ -79,7 +80,11 @@ params:
 
   # search
   enableSearch: true
-
+  highlightjs: true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages: ["ocaml"]
+  highlightjsTheme: "gruvbox-light"
+  highlightjsThemeDark: "gruvbox-dark"
   # options
   showSummaryCoverInPost: true
 permalinks:
