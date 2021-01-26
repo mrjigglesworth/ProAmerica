@@ -1,37 +1,35 @@
 baseurl: "/"
-title: Pro America
-theme: dream
-languageCode: en-us
-disqusShortname: 'proamerica'
-googleAnalytics: XXX
-pygmentsUseClasses: true
-pygmentsCodefences: true
+languageCode: "en-us"
+title: "Pro America"
+theme: "xmag"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+preserveTaxonomyNames: true
+footnotereturnlinkcontents: "↩"
+hasCJKLanguage: true
+enableEmoji: true
+paginate: 6
 
-markup:
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    tabWidth: 2
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
 
-privacy:
-  disqus:
-    disable: false
-  googleAnalytics:
-    anonymizeIP: true
-    respectDoNotTrack: true
-    useSessionStorage: false
-
-author:
-  name: "PatriotA"
-  profile: ""
-
-taxonomies:
-  tag: tags
+menu:
+  main:
+    - name: Videos
+      url: /
+      weight: 1
+    - name: Memes
+      url: /memes/
+      weight: 2
+    - name: Feeds
+      url: /feeds/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    # - name: Subscribe
+    #   url: /index.xml
 
 params:
   author: "PatriotA"
@@ -43,61 +41,23 @@ params:
   
   # background: "black"
   favicon: "/img/favicon.ico"
-  backgroundImage: "/img/flagbackground.jpg"
-  linkColor: "red"
-  mainSections:
-    - post
-  intro: true
-  headline: Pro America
-  description: For the Patriots. Censorship Resistant.
-  # github: "https://github.com/XXX"
-  # gitlab: "https://gitlab.com/XXX"
-  # linkedin: "https://linkedin.com/in/XXX/"
-  # twitter: "https://twitter.com/XXX"
-  # stackoverflow: "https://stackoverflow.com/users/XXX/YYY"
-  # facebook: "https://www.facebook.com/username"
-  # email: XXX@example.com
-  # opengraph: true
-  comments: true
-  shareTwitter: false
-  rss: true
-  shareFacebook: false
-  shareLinkedIn: false
-  dateFormat: "Mon, Jan 2, 2006"
-  exponeaJsUrl: ""
-  exponeaTarget: ""
-  exponeaToken: ""
-  exponeaTrackVisits: false
-  readingTime: true
-  readingTimeText: "Estimated reading time:"
-  fathomUrl: ""
-  fathomSiteId: ""
-  # If you want to use plausible(https://plausible.io) for analytics, add this section
-  plausibleAnalytics:
-    domain: ""
-    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
-    serverURL: ""
+  description: ""
+  footer: ""
+  github_edit: ""
+  summary_length: 300
+  text:
+    back: "&larr; Back to Home"
+    edit: "Edit this page &rarr;"
+    truncated: "&hellip;"
+  banner:
+    src: "/img/cover.png"
+    alt: "ProAmerica.Live"
 
-  # search
-  enableSearch: true
-  highlightjs: true
-  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  highlightjsExtraLanguages: ["ocaml"]
-  highlightjsTheme: "gruvbox-light"
-  highlightjsThemeDark: "gruvbox-dark"
-  # options
-  showSummaryCoverInPost: true
-permalinks:
-  post: "/:year/:month/:day/:filename/"
+params.banner:
+    src: "/path/to/banner.png"
+    alt: "alternative text on image"
 
-menu:
-  main:
-    # - name: Blog
-      # url: /
-      # weight: 1
-    # # - name: Contact
-      # # url: /page/contact/
-      # # weight: 3
-    # - name: About
-      # url: /page/about/
-      # weight: 4
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

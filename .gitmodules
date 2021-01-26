@@ -16,3 +16,24 @@
 [submodule "themes/creative"]
 	path = themes/creative
 	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "themes/blondie"]
+	path = themes/blondie
+	url = https://github.com/opera7133/Blonde.git
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/Mitrichius/hugo-theme-anubis.git
+[submodule "themes/dimension"]
+	path = themes/dimension
+	url = https://github.com/your-identity/hugo-theme-dimension.git
+[submodule "themes/console"]
+	path = themes/console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "themes/photogrid"]
+	path = themes/photogrid
+	url = https://github.com/Chen-Zhe/photo-grid.git
+[submodule "themes/hu-grid"]
+	path = themes/hu-grid
+	url = https://github.com/aerohub/hugrid.git
+[submodule "themes/xmag"]
+	path = themes/xmag
+	url = https://github.com/yihui/hugo-xmag.git

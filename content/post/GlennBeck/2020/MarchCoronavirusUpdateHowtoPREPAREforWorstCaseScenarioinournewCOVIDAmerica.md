@@ -1,8 +1,0 @@
-+++
-title=''
-date=2020-03-16T21:42:26Z
-cover='https://i.ytimg.com/vi/eW2D_Z2wFDU/hqdefault.jpg'
-+++
-
-All content belongs to GlennBeck.
-{{< youtube eW2D_Z2wFDU >}}
