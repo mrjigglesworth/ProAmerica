@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+<main class="list">
+{{ $pages := .Pages }}
+{{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+{{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
+{{ range $paginator.Pages }}
+<section class="article-list">
+    <div style="max-height: 300px;">
+        <a class="twitter-timeline" href="{{ .Params.TwitterUrl }}">Tweets by <p>{{ .Params.TwitterUserName }}</p></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</section>
+{{ end }}
+</main>
+<nav>{{ template "_internal/pagination.html" . }}</nav>
+</div>
+
+{{ partial "footer.html" . }}
