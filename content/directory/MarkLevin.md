@@ -1,6 +1,5 @@
 +++
 categories=["Mark Levin"]
-date=2021-01-27T07:16:23Z
 description=""
 title="Mark Levin"
 thumbnail="/img/marklevin.jpg"
