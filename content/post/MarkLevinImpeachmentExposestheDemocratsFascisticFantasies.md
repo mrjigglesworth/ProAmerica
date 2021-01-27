@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Blaze Tv"]
 date=2021-01-27T01:00:02Z
 description=''

@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Salty Cracker"]
 date=2021-01-26T14:00:19Z
 description=''

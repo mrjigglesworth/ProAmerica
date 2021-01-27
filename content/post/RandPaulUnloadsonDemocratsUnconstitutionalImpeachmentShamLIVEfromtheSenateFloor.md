@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Charlie Kirk"]
 date=2021-01-26T19:52:14Z
 description=''

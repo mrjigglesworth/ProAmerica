@@ -1,5 +1,6 @@
 +++
-categories=["Slightly Offens*ve"]
+type='video'
+categories=["Slightly Offensive"]
 date=2021-01-21T20:00:17Z
 description=''
 title="AMERICA LAST? A List Of Biden's Executive Orders"

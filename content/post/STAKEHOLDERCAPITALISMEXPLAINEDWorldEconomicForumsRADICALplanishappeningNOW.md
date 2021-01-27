@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Glenn Beck"]
 date=2021-01-26T20:29:58Z
 description=''

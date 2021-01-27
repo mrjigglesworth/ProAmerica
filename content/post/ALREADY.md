@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Mark Dice"]
 date=2021-01-27T13:00:11Z
 description=''

@@ -1,5 +1,6 @@
 +++
-categories=["Slightly Offens*ve"]
+type='video'
+categories=["Slightly Offensive"]
 date=2021-01-22T21:00:12Z
 description=''
 title="Biden Stormtroopers Gas Mostly Peaceful Protesters | Ep 119"

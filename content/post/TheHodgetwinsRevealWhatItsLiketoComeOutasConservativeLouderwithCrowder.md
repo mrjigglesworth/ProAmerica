@@ -1,4 +1,5 @@
 +++
+type='video'
 categories=["Steven Crowder"]
 date=2020-12-14T16:00:16Z
 description=''
