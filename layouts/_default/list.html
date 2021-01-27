@@ -45,9 +45,11 @@
 </section>
 {{ end }}
 </main>
-<div class="container">
-  <nav>{{ template "_internal/pagination.html" . }}</nav>
-</div>
+    <nav style="text-align: center; padding: 5px;">
+      <button style="text-align: center;">
+        {{ template "_internal/pagination.html" . }}
+      </button>
+    </nav>
 </div>
 
 {{ partial "footer.html" . }}

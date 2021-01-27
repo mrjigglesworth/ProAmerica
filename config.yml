@@ -19,14 +19,14 @@ menu:
     - name: Live
       url: /
       weight: 1
-    - name: Memes
-      url: /memes/
+    - name: Directory
+      url: /directory/
       weight: 2
     - name: Feeds
       url: /feeds/
       weight: 3
-    - name: Directory
-      url: /directory/
+    - name: Memes
+      url: /memes/
       weight: 4
     - name: About
       url: /about/
