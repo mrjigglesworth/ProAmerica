@@ -64,3 +64,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+staticman:
+    api: https://proamerica-staticman-comments.herokuapp.com/v2/entry/mrjigglesworth/ProAmerica/main/comments
+    
