@@ -41,8 +41,6 @@ params:
   headerTitle : "Pro America"
   motto: "The idea of this site is to combine PRO-AMERICA content into one platform that is 100% PRO-AMERICA and nothing else. This is for entertainment purposes. You'll see memes, gifs, and videos all relating to PRO-AMERICA. This website is built on IPFS (InterPlanetary File System), a distributed network that is censorship resistent."
   categoriesLimitInHeader: 6
-  
-  # background: "black"
   favicon: "/img/favicon.ico"
   description: ""
   footer: ""
@@ -55,20 +53,8 @@ params:
   banner:
     src: "/img/cover.png"
     alt: "ProAmerica.Live"
-
-params.banner:
-    src: "/path/to/banner.png"
-    alt: "alternative text on image"
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-staticman:
+  staticman:
     endpoint: "https://proamerica-staticman-comments.herokuapp.com/v2/entry"
     username: "mrjigglesworth"
     repository: "ProAmerica"
     branch: "main"
-    #api: https://proamerica-staticman-comments.herokuapp.com/v2/entry/mrjigglesworth/ProAmerica/main/comments
-    
