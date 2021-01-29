@@ -1,19 +1,16 @@
 {{ partial "header.html" . }}
 
 <div class="container" style="min-width: 100%;">
-<main class="list">
+<main class="list" style="padding-top: 20px; padding-bottom: 20px;">
 <!-- {{ $pages := .Pages }}
 {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }} -->
 {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
 {{ range $paginator.Pages }}
         <table>
-            <tr style="text-align: right;">
-              <th colspan="2"><h3>{{ .Params.title }}</h3></th>
-            </tr>
             <tr>
-              <td>
-                <div class="summary">
-                    <div class="thumbnail" style="max-height: 120px; max-width:120px;"><img src="{{ .Params.thumbnail }}" alt="Thumbnail" /></div>
+              <td width="200">
+                <div>
+                  <h3>{{ .Params.title }}</h3>
                 </div>
               </td>
               <td>
@@ -32,3 +29,5 @@
 </main>
 <nav>{{ template "_internal/pagination.html" . }}</nav>
 </div>
+
+{{ partial "footer.html" . }}
