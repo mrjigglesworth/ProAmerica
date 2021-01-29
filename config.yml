@@ -66,5 +66,9 @@ markup:
       unsafe: true
 
 staticman:
-    api: https://proamerica-staticman-comments.herokuapp.com/v2/entry/mrjigglesworth/ProAmerica/main/comments
+    endpoint: "https://proamerica-staticman-comments.herokuapp.com/v2/entry"
+    username: "mrjigglesworth"
+    repository: "ProAmerica"
+    branch: "main"
+    #api: https://proamerica-staticman-comments.herokuapp.com/v2/entry/mrjigglesworth/ProAmerica/main/comments
     
