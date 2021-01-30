@@ -9,4 +9,13 @@ facebookUrl="https://www.facebook.com/GlennBeck/"
 instagramUrl="https://www.instagram.com/glennbeck/"
 LinkedInUrl="https://www.linkedin.com/in/glenn-beck-19a893161/"
 websiteUrl="https://www.glennbeck.com/"
+websiteUrlStatus="ACTIVE"
+twitterUrlStatus="ACTIVE"
+youtubeUrlStatus="ACTIVE"
+facebookUrlStatus="ACTIVE"
+instagramUrlStatus="ACTIVE"
+LinkedInUrlStatus="ACTIVE"
 +++
+
+
+  {{< jsonTable "GlennBeck" >}}

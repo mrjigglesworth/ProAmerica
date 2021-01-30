@@ -14,14 +14,48 @@
                 </div>
               </td>
               <td>
-                <ul style="list-style-type: none;">
-                  <li><a href="{{ .Params.websiteUrl }}">{{ .Params.websiteUrl }}</a></li>
-                  <li><a href="{{ .Params.LinkedInUrl }}">{{ .Params.TwitterUrl }}</a></li>
-                  <li><a href="{{ .Params.instagramUrl }}">{{ .Params.instagramUrl }}</a></li>
-                  <li><a href="{{ .Params.facebookUrl }}">{{ .Params.facebookUrl }}</a></li>
-                  <li><a href="{{ .Params.youtubeUrl }}">{{ .Params.youtubeUrl }}</a></li>
-                  <li><a href="{{ .Params.TwitterUrl }}">{{ .Params.TwitterUrl }}</a></li>
-                </ul>
+                <table style="list-style-type: none; border:none; max-width: 90%;">
+                  <tr>
+                    <td width=300>
+                      <li><a href="{{ .Params.websiteUrl }}">{{ .Params.websiteUrl }}</a></li>
+                    </td>
+                    <td>
+                      <li>{{ .Params.websiteUrlStatus }}</li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <li>{{ .Params.TwitterUrl }}</li>
+                    </td>
+                    <td>
+                      <li>{{ .Params.TwitterUrlStatus }}</li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <li><a href="{{ .Params.instagramUrl }}">{{ .Params.instagramUrl }}</a></li>
+                    </td>
+                    <td>
+                      <li>{{ .Params.instagramUrlStatus }}</li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <li><a href="{{ .Params.facebookUrl }}">{{ .Params.facebookUrl }}</a></li>
+                    </td>
+                    <td>
+                      <li>{{ .Params.facebookUrlStatus }}</li>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <li><a href="{{ .Params.youtubeUrl }}">{{ .Params.youtubeUrl }}</a></li>
+                    </td>
+                    <td>
+                      <li>{{ .Params.youtubeUrlStatus }}</li>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
