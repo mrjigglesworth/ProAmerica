@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ $.Scratch.Set "Title" (default .Title (index .Site.Params.text (print "title_" (lower .Title)))) }}
-    <title>{{ if eq ($.Scratch.Get "Title") .Site.Title }}{{ .Site.Title }}{{ else }}{{ ($.Scratch.Get "Title") }} | {{ .Site.Title }}{{ end }}</title>
+    <!-- {{ $.Scratch.Set "Title" (default .Title (index .Site.Params.text (print "title_" (lower .Title)))) }} -->
+    <!-- <title>{{ if eq ($.Scratch.Get "Title") .Site.Title }}{{ .Site.Title }}{{ else }}{{ ($.Scratch.Get "Title") }} | {{ .Site.Title }}{{ end }}</title> -->
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
@@ -13,7 +13,7 @@
     <nav class="header">
       {{ partial "banner.html" . }}
       <div class="head-meta" id="metaHeader" style="display: none;">
-      {{ if .IsPage }}
+      <!-- {{ if .IsPage }}
         <span><a href="{{ relURL .Site.BaseURL }}">{{ (default "Back to Home" .Site.Params.text.back) | safeHTML }}</a></span>
         {{ if .Params.date }}<span class="date">{{ .Date.Format "2006-01-02" }}</span>{{ end }}
         {{ if .File.Path }}
@@ -35,6 +35,6 @@
         {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
         {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
         <span>{{ with $paginator }}{{ if .TotalPages }}{{ .PageNumber }} / {{ .TotalPages }}{{ end }}{{ end }}</span>
-      {{ end }}
+      {{ end }} -->
       </div>
     </nav>
